@@ -5,6 +5,7 @@ import { forwardRef } from "react";
 
 import Image from "next/legacy/image";
 
+// eslint-disable-next-line react/display-name
 const Thumbnail = forwardRef(({ result }, ref) => {
   const BASE_URL = "https://image.tmdb.org/t/p/original";
 
